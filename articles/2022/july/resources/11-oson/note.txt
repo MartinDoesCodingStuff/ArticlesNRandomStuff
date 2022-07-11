@@ -1,0 +1,6 @@
+Ignore the files with the "-resized" prefix.
+If you want to see the engrish in it's full glory,
+refer to the original files.
+
+Also if you want to upload this to r/Engrish or some other site,
+please credit me.
