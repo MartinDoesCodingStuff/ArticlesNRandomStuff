@@ -5,24 +5,26 @@ This script automates the generation and encoding of a one-time-pad. A 60-year o
 ```js
 var input = 'Grilled cheese, you mean so much to me.\nGrilled cheese, you bring cholesterol to my knees.';
 
-// generate our table
-var table = generateOTPRandtable();
+// generate our random table
+// The "false" parameter says that we want all the values in the table to be unique.
+var table = generateOTPRandtable(false);
 
-// generate key, be sure that it is at least longer than the inputted string
+// Generate key, be sure that it is at least longer than the inputted string.
 var key = generateOTPKey(input.length);
 
-// output as machine-friendly Javascript object
+// Output as a Javascript object.
+// This is what we will use to encode the message.
 var machine_friendly_table = convertToObject(table);
 
-// encode the message
+// Encode the message.
 var encoded_message = encodeMessage(input, key, machine_friendly_table);
 console.log(encoded_message);
 
-// decode the message
+// Decode the message.
 var decoded_message = decodeMessage(encoded_message, key, machine_friendly_table);
 console.log(decoded_message);
 
-// output as string formatted as a CSV file (not recommended if you used the full ASCII charset)
+// Output as string formatted as a CSV file.
 var csvfile = convertToCSV(table);
 console.log(csvfile);
 ```
