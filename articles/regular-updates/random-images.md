@@ -12,3 +12,11 @@
 This is a packet of spaghetti sauce my parents bought and cooked for our dinner, with big text that says "Rich and Thick" on it. Obviously it's advertising that the spaghetti sauce is rich in flavor and is thick in texture, though my mother's way of cooking the sauce makes it much, much more "Rich and Thick" than the sauce itself.
 
 <img src="resources/random-images/orig_sus_spaghetti_sauce.jpg" height="600">
+
+<!-- Added on: 9/4/2022 -->
+
+## 2. Bang**kok** mug
+
+This is a mug owned by one of my cousins. It holds hot sauce and ketchup packets.
+
+<img src="resources/random-images/orig_bangkok_mug.jpg" height="600">
